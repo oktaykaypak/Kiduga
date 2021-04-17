@@ -1,0 +1,32 @@
+{
+    "name": "kiduga-panel-back-end",
+    "version": "1.0.0",
+    "description": "Kiduga Admin Panel Back-End",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "build": "vue-cli-service build"
+    },
+    "author": {
+        "name": "Freelancer Istanbul",
+        "github": "https://github.com/freelancer-istanbul"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@types/mongodb": "^3.5.27",
+        "body-parser": "^1.19.0",
+        "connect-mongo": "^3.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.0",
+        "https": "^1.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^3.6.2",
+        "multer": "^1.4.2",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.5"
+    }
+}
